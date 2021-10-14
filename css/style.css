@@ -2,47 +2,18 @@ body {
   font-family: sans-serif;
 }
 
-.dog {
-  float: left;
-  width: 40%;
-  border: 2px solid black;
-  margin: 2px;
-  padding: 10px;
-  box-sizing: border-box;
-}
-
-.first h2 {
-  font-weight: bold;
-  color: green;  
-}
-
-.parrot {
-  float: right;
-  width: 40%;
-  border: 2px solid green;
-  margin: 2px;
-  padding: 10px;
-  box-sizing: border-box;
-}
-
-.pig {
-  float: left;
-  width: 40%;
-  border: 2px solid rgb(109, 106, 106);
-  margin: 2px;
-  padding: 10px;
-  box-sizing: border-box;
-}
-
-.center {
-  margin: auto;
-  width: 50%;
-  height: auto;
-  display: block;
-}
-
-h2 {
+.animal h2, p, img {
   text-align: center;
-  color: purple;
+  color: green;
+  border-image-width: 1px;
 }
 
+.animal {
+  float: left;
+  width: 29%;
+  margin: 14;
+  padding: 1%;
+  height: 350px;
+  border: solid red;
+  background-color: indianred;
+}
