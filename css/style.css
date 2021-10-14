@@ -11,6 +11,11 @@ body {
   box-sizing: border-box;
 }
 
+.first h2 {
+  font-weight: bold;
+  color: green;  
+}
+
 .parrot {
   float: right;
   width: 40%;
@@ -38,4 +43,6 @@ body {
 
 h2 {
   text-align: center;
+  color: purple;
 }
+
